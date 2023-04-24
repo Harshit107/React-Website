@@ -1,0 +1,36 @@
+
+
+.light-mode {
+
+  --primary-heading : #50aed9;
+  --primary-text : #242020;
+  --primary-bg-color : #ece9e9;
+  
+  --secondary-text : #252425;
+  --secondary-bg-color : rgb(220, 222, 222);
+}
+
+
+.dark-mode {
+
+  --primary-heading : #50aed9;
+  --primary-text : #ece9e9;
+  --primary-bg-color : #242020;
+  
+  --secondary-text :  rgb(220, 222, 222);;
+  --secondary-bg-color : #252425;
+}
+
+.color-red {
+    --primary-heading : #de2626;
+}
+
+.color-blue {
+    --primary-heading : #5510f7;
+}
+.color-green {
+    --primary-heading : #22faa0;
+}
+.color-yellow {
+    --primary-heading : #f4f746;
+}
