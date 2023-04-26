@@ -14,7 +14,7 @@ const ListItem = (props) => {
         }`}
         onClick={handleOnClick}
       >
-        <i className={`fa fa-fw fa-${props.icon} listitem_i`}></i>
+        <i className={`fa fa-${props.icon} listitem_i`}></i>
         {props.section}
       </div>
     </div>

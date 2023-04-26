@@ -1,4 +1,11 @@
 
+.sidebar__container{
+  border-right: 1px solid var(--border-color);
+  height: 100%;
+
+
+}
+
 .slidebar__ul {
   list-style: none;
   margin: 0px;
@@ -6,6 +13,19 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: left;
+
+}
+
+.sidebar__logo_container {
+  display: flex;
+  justify-content: center;
+}
+.sidebar__logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+    margin-top: 30px;;
+
 }
