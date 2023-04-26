@@ -4,21 +4,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 40px;
+
 }
 
 .listitem__container_a {
   font-size: 20px;;
   text-decoration: none;
-  border-bottom: .1px solid #24232334;
-
+  border-bottom: .01px solid #4585731b;
+  cursor: pointer;
   width: 140px;
   display: block; 
   text-align: center;
   font-weight: 600;
   color: var(--primary-text);
-  padding-top: 40px;
-  transition: color 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  transform: 0.2s ease-in-out;
+  padding-bottom: 2px;
+
 
 }
 .listitem__container_a_active {

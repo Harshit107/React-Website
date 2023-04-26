@@ -8,8 +8,7 @@ const ListItem = (props) => {
 
   return (
     <div className="listitem__container">
-      <a
-        href={`#${props.section}`}
+      <div        
         className={`listitem__container_a ${
           props.isActive ? " listitem__container_a_active" : ""
         }`}
@@ -17,7 +16,7 @@ const ListItem = (props) => {
       >
         <i className={`fa fa-fw fa-${props.icon} listitem_i`}></i>
         {props.section}
-      </a>
+      </div>
     </div>
   );
 }

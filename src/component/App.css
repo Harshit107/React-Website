@@ -13,3 +13,9 @@
   background-color: var(--primary-bg-color)
 
 }
+
+.app__container_main-page {
+  background-color: var(--secondary-bg-color);
+  width: 100%;
+  height: 100%;
+}

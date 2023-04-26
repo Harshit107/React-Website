@@ -6,35 +6,35 @@ const Sidebar = (props) => {
 
   let className = `${props.className}`
 
-  const [activeList, setActiveList] = useState('1');
+  const [activeList, setActiveList] = useState('0');
 
-  const changeListColor = (id) => {
-    console.log(id);
+  const changeListColor = (id) => {    
     setActiveList(id);
+    props.loadNewComponent(id);
   }
 
   return (
     <div className={className}>
       <ul className="slidebar__ul">
         <ListItem
-          id="1"
+          id="0"
           section="Home"
           icon="home"
+          isActive={activeList === "0"}
+          changeListColor={changeListColor}
+        />
+        <ListItem
+          id="1"
+          section="About"
+          icon="user"
           isActive={activeList === "1"}
           changeListColor={changeListColor}
         />
         <ListItem
           id="2"
-          section="About"
-          icon="user"
-          isActive={activeList === "2"}
-          changeListColor={changeListColor}
-        />
-        <ListItem
-          id="3"
           section="Contact"
           icon="phone"
-          isActive={activeList === "3"}
+          isActive={activeList === "2"}
           changeListColor={changeListColor}
         />
         
