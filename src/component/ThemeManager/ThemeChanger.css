@@ -1,0 +1,36 @@
+
+.themechanger__setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+.themechanger__setting_color {
+
+  font-size: 30px;
+  color: var(--primary-text);
+  width:30px;
+  height: 30px;
+  cursor: pointer;
+
+}
+
+.themechanger__setting_icon_holder{
+  display: flex;
+  flex-direction: column;
+}
+
+.themechanger__setting_img{
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(221, 221, 221);
+  margin-top: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
+

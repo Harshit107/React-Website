@@ -30,11 +30,9 @@ const About = (props) => {
             University Of Engineering and Management Jaipur.
             <br />
             I'm a self-taught developer with a passion for building innovative
-            apps and websites. I have developed skills in{" "}
-            <i>Java, JavaScript, React, Android, and NodeJS</i>, and I have a
-            keen interest in developing new, unique apps and websites. As a
+            apps and websites. As a
             full-stack developer, I enjoy working on every aspect of a project,
-            from front-end design to back-end functionality. <br />
+            from front-end design to back-end functionality.
             I'm dedicated to staying up-to-date with the latest technologies and
             trends, and I believe that learning is a lifelong process.
           </p>

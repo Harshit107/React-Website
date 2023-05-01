@@ -9,8 +9,8 @@
 .about__container_text{
   width: 60%;
   height: 100%;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 30px;
+  padding-left: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,10 +37,10 @@
   width: 100%;
 }
 .about__text_container_bio {
-  font-weight: 400;
-  font-family: 'Lato';
+  font-weight: 500;
   line-height: 1.4;
   color: var(--low-white);
+  font-size: 18px;;
 }
 
 .about__text_container_bio a {

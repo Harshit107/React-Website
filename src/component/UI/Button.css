@@ -6,9 +6,18 @@
   font-size: 16px;
   font-weight: 400;
   font-family: 'Lato';
-  color: #e2dfdf;
+  color: #ffffff;
   border-radius: 20px;
-  border: 1px solid var(--primary-bg-color);
+  border: .5px solid var(--primary-bg-color);
   margin-top: 20px;
   cursor: pointer;
+
+  transition: all 0.3s ease; /* Add transition effect */
+  box-shadow: 0 3px var(--secondary-heading); /* Add default box shadow */
+}
+
+.custom__button:hover {
+  background-color: var(--secondary-heading);
+  box-shadow: 0 2px var(--secondary-heading); /* Reduce box shadow */
+  transform: translateY(3px); /* Add elevation effect */
 }

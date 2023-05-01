@@ -1,15 +1,15 @@
 import About from './about/About';
-import Sidebar from './Sidebar';
+import Sidebar from './Sidebar/Sidebar';
 import Contact from './contact/Contact';
 import Education from './education/Education';
 import Project from './project/Project';
 import Skills from './skill/Skill';
 import Experience from './experience/Experience';
-
 import "./App.css";
+
 import { useState } from 'react';
 
-const App = () => {
+const App = (props) => {
 
   const [componentState, setComponentState ] = useState(0) 
   
@@ -30,7 +30,7 @@ const App = () => {
 
 
   return (
-    <div className="app__container">
+    <div className={`app__container ${props.className}`}>
       <Sidebar
         className="app__container_sidebar"
         loadNewComponent={loadNewComponent}

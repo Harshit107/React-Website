@@ -1,0 +1,8 @@
+.theme-color-circle{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-right: 10px;
+  cursor: pointer;;
+  margin-top: 10px;
+}

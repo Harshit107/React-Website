@@ -1,0 +1,32 @@
+.theme-color-box__container {
+  width: 100%;
+  height: fit-content;
+  background-color:rgb(224, 221, 228);
+  float: right;
+  margin-right: 30px;
+  margin-left: 20px;
+ border-radius: 5px;
+
+
+}
+
+.theme-color-box__wrapper {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.theme-color-box__wrapper .circle-class{
+  width: 20px;
+  height: 20px;
+}
+
+.theme-color-box__text {
+  font-weight: 500;
+  padding: 0px 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+}
