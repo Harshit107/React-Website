@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { CSSTransition } from "react-transition-group";
+import { useState, useEffect } from "react";
+import { useTransition, animated } from "react-spring";
 import "./App.css";
 
 import About from "./about/About";
@@ -9,9 +9,10 @@ import Education from "./education/Education";
 import Project from "./project/Project";
 import Skills from "./skill/Skill";
 import Experience from "./experience/Experience";
+import Animation from '../animation';
+
 
 const App = (props) => {
-  const [componentState, setComponentState] = useState(0);
   const classNameForComponent = "app__container_main-page";
 
   const componentsArray = [
@@ -23,29 +24,32 @@ const App = (props) => {
     <Contact className={classNameForComponent} />,
   ];
 
-  const loadNewComponent = (index) => {
-    setComponentState(index);
-  };
+  const [activeComponentIndex, setActiveComponentIndex] = useState(
+    props.loadComponent || 0
+  );
+  const activeComponent = componentsArray[activeComponentIndex];
+
+  useEffect(() => {
+    setActiveComponentIndex(props.loadComponent);
+  }, [props.loadComponent]);
+
+
+  const transitions = useTransition(
+    activeComponent,
+    Animation[activeComponentIndex % 6]
+  );
 
   return (
     <div className={`app__container ${props.className}`}>
       <Sidebar
         className="app__container_sidebar"
-        loadNewComponent={loadNewComponent}
-      >
-        Side bar
-      </Sidebar>
-      <div className={classNameForComponent}>
-        <CSSTransition
-          key={componentState}
-          in={true}
-          timeout={500}
-          classNames="fade"
-          unmountOnExit
-        >
-          {componentsArray[componentState]}
-        </CSSTransition>
-      </div>
+        loadNewComponent={setActiveComponentIndex}
+      />
+      {transitions((style, component) => (
+        <animated.div className={classNameForComponent} style={style}>
+          {component}
+        </animated.div>
+      ))}
     </div>
   );
 };

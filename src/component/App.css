@@ -1,21 +1,5 @@
 
-.fade-enter {
-  opacity: 0;
-}
 
-.fade-enter-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in-out;
-}
-
-.fade-exit {
-  opacity: 1;
-}
-
-.fade-exit-active {
-  opacity: 0;
-  transition: opacity 500ms ease-in-out;
-}
 
 .app__container{
   background-color: var(--primary-bg-color);
@@ -36,5 +20,25 @@
   background-color: var(--primary-bg-color);
   width: 100%;
   height: 100%;
+}
+
+
+
+.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-enter-active {
+  transform: translateX(0);
+  transition: transform 500ms ease-in-out;
+}
+
+.slide-exit {
+  transform: translateX(0);
+}
+
+.slide-exit-active {
+  transform: translateX(-100%);
+  transition: transform 500ms ease-in-out;
 }
 
