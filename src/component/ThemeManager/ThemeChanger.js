@@ -11,6 +11,8 @@ const ThemeChanger = (props) => {
 
    const toggleDiv = () => {
      setShowDiv(!showDiv);
+     const mainSliderClass = document.getElementById("themechanger__setting").classList;
+     mainSliderClass.toggle('slider')
    };
 
   const handleChangeMode = function () {
@@ -27,7 +29,7 @@ const ThemeChanger = (props) => {
 
   return (
     <div className={className}>
-      <div className="themechanger__setting">
+      <div className="themechanger__setting" id="themechanger__setting">
         <div className="themechanger__setting_icon_holder">
           <i
             className="fa fa-cog fa-spin themechanger__setting_color"
@@ -42,9 +44,7 @@ const ThemeChanger = (props) => {
             ></img>
           </div>
         </div>
-        <ThemeColorBox
-          className=""
-        />
+        <ThemeColorBox className="" />
       </div>
     </div>
   );

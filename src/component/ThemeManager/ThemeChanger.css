@@ -1,4 +1,6 @@
 
+
+
 .themechanger__setting {
   display: flex;
   justify-content: center;
@@ -8,7 +10,6 @@
 }
 
 .themechanger__setting_color {
-
   font-size: 30px;
   color: var(--primary-text);
   width:30px;
@@ -20,6 +21,7 @@
 .themechanger__setting_icon_holder{
   display: flex;
   flex-direction: column;
+  margin-right: 35px;
 }
 
 .themechanger__setting_img{
@@ -34,3 +36,23 @@
 
 
 
+/* ----------  Slideing Animation       --------- */
+
+ .themechanger__container {
+  overflow:hidden
+}
+
+.themechanger__setting {
+   position: absolute;
+  top: 0;
+  right: -80%;
+  width: 100%;
+  transition: .5s ease;
+
+}
+.slider {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  width: 100%;
+}

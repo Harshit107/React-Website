@@ -11,11 +11,12 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
     "react-scripts": "^4.0.3",
+    "react-transition-group": "^4.4.5",
     "react-typed": "^1.2.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start --legacy-peer-deps" ,
+    "start": "react-scripts start --legacy-peer-deps",
     "build": "react-scripts build --legacy-peer-deps",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

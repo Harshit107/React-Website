@@ -1,4 +1,21 @@
 
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
 
 .app__container{
   background-color: var(--primary-bg-color);
@@ -21,13 +38,3 @@
   height: 100%;
 }
 
-.special__text {
-  color: var(--primary-heading);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.link-color {
-  color: var(--link-color);
-  cursor: pointer;
-  
-}

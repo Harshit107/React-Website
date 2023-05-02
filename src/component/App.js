@@ -1,18 +1,17 @@
-import About from './about/About';
-import Sidebar from './Sidebar/Sidebar';
-import Contact from './contact/Contact';
-import Education from './education/Education';
-import Project from './project/Project';
-import Skills from './skill/Skill';
-import Experience from './experience/Experience';
+import { useState } from "react";
+import { CSSTransition } from "react-transition-group";
 import "./App.css";
 
-import { useState } from 'react';
+import About from "./about/About";
+import Sidebar from "./Sidebar/Sidebar";
+import Contact from "./contact/Contact";
+import Education from "./education/Education";
+import Project from "./project/Project";
+import Skills from "./skill/Skill";
+import Experience from "./experience/Experience";
 
 const App = (props) => {
-
-  const [componentState, setComponentState ] = useState(0) 
-  
+  const [componentState, setComponentState] = useState(0);
   const classNameForComponent = "app__container_main-page";
 
   const componentsArray = [
@@ -24,10 +23,9 @@ const App = (props) => {
     <Contact className={classNameForComponent} />,
   ];
 
-  const loadNewComponent = (index) => { 
-      setComponentState(index);
-  }
-
+  const loadNewComponent = (index) => {
+    setComponentState(index);
+  };
 
   return (
     <div className={`app__container ${props.className}`}>
@@ -38,7 +36,15 @@ const App = (props) => {
         Side bar
       </Sidebar>
       <div className={classNameForComponent}>
-        {componentsArray[componentState]}
+        <CSSTransition
+          key={componentState}
+          in={true}
+          timeout={500}
+          classNames="fade"
+          unmountOnExit
+        >
+          {componentsArray[componentState]}
+        </CSSTransition>
       </div>
     </div>
   );

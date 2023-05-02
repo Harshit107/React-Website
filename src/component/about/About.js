@@ -24,7 +24,7 @@ const About = (props) => {
             <br />I am Harshit Keshari, currently working as a Jr Software
             Developer at{" "}
             <a href="https://www.hexagon.com/" target="blank">
-              <span className="link-color">Hexagon ( HMI ) </span>
+              <span className="link-color">Hexagon(HMI) </span>
             </a>
             and I have a Bachelor's degree in Computer Science from the
             University Of Engineering and Management Jaipur.
