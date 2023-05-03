@@ -6,6 +6,7 @@
 
   --primary-text: #1d1a1a;
   --primary-bg-color: rgb(231, 231, 231);
+  --matching-bg-color: rgb(195, 195, 195);
 
   --secondary-text: #252425;
   --secondary-bg-color: #f1f1f1;
@@ -21,18 +22,21 @@
 
   --primary-text: #ffffff;
   --primary-bg-color: #151515;  
+  --matching-bg-color: rgb(98, 118, 127);
+
 
   --secondary-text: #e9e9e9;
   --secondary-bg-color: #222222;
-  --border-color: #f3f3f32e;
+  --border-color: #a5a2a22e;
   --link-color : #4088cc;
   --low-white : #cecece;
 }
 
 .color-red {
-  --primary-heading: #de2626;
+  --primary-heading: #ec1839;
+  /* --primary-heading: #de2626; */
   --secondary-heading: #e31111;
-  --matching-heading : #e36811;
+  --matching-heading : #ef7432;
 }
 
 .color-blue {
