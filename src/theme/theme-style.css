@@ -2,6 +2,7 @@
 .light-mode {
   --primary-heading: #50aed9;
   --secondary-heading: #2b92c2;
+    --matching-heading : rgb(226, 139, 241);
 
   --primary-text: #1d1a1a;
   --primary-bg-color: rgb(231, 231, 231);
@@ -16,6 +17,8 @@
 .dark-mode {
   --primary-heading: #50aed9;
   --secondary-heading: #3299c9;
+  --matching-heading : rgb(219, 110, 239);
+
   --primary-text: #ffffff;
   --primary-bg-color: #151515;  
 
@@ -29,20 +32,25 @@
 .color-red {
   --primary-heading: #de2626;
   --secondary-heading: #e31111;
+  --matching-heading : #e36811;
 }
 
 .color-blue {
   --primary-heading: #875cee;
   --secondary-heading: #4e24b0;
+  --matching-heading : #4692ea;
+  
   
 }
 .color-green {
   --primary-heading: #25ca85;
   --secondary-heading: #18b172;
+  --matching-heading : #068490;
 }
 .color-yellow {
   --primary-heading: #d1b825;
   --secondary-heading: #acae1c;
+  --matching-heading : #d07834;
 }
 
 .background-color-red {

@@ -19,6 +19,8 @@ code {
 #root {
   height: 100%;
 }
+
+
 .special__text {
   color: var(--primary-heading);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -26,7 +28,11 @@ code {
 
 .link-color {
   color: var(--link-color);
-  cursor: pointer;
-  
+  cursor: pointer;  
+}
+
+.default-link {
+  text-decoration: none; 
+  color: var(--primary-text);
 }
 

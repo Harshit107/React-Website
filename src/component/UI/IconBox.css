@@ -1,0 +1,16 @@
+.icon-box__container {
+  width: fit-content;
+height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.icon-box__container_img {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: var(--primary-heading);
+
+}
+.icon-box__container_name {
+  font-size: 20px;
+}
