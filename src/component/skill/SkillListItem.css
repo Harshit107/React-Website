@@ -1,0 +1,21 @@
+.skill-list-item__container{
+
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;  
+  border-radius: 10px;
+  border: 0.3px solid var(--primary-heading);
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 5px -0.5px var(--primary-heading-translucent);
+  margin: 10px;
+}
+
+.skill-list-item_img {
+   margin-bottom: 10px;   
+    width: 80px;
+    height: 80px;
+}
+.skill-list-item_name {
+   font-size: 20px;
+}
