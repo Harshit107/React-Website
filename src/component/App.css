@@ -6,6 +6,7 @@
   height: 100%;
   display: flex;
   color: var(--primary-text);
+  box-sizing: border-box;
 }
 
 .app__container_sidebar{

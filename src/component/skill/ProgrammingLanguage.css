@@ -1,7 +1,0 @@
-.programming-language__container{
-  display: flex;
-  justify-content: left;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-}
