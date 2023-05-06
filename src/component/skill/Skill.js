@@ -14,8 +14,7 @@ const Skill = () => {
        <div className="skill__tech_container">
          <ItemContainer items={languageItems} name="Programming Languages" />
          <ItemContainer items={frameworkItems} name="Framework and Libraries" />
-         <ItemContainer items={databaseItems} name="Database" />
-         <ItemContainer items={toolsItem} name="Tools" />
+         <ItemContainer items={[...databaseItems, ...toolsItem]} name="Tools and Database" />
        </div>
      </div>
    );
