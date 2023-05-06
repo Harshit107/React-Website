@@ -38,14 +38,14 @@
   --primary-heading: #ec1839;
   /* --primary-heading: #de2626; */
   --secondary-heading: #e31111;
-  --matching-heading : #ef7432;
+  --matching-heading : #ef7432a7;
     --primary-heading-translucent : #ec18392a;
 }
 
 .color-blue {
   --primary-heading: #875cee;
   --secondary-heading: #4e24b0;
-  --matching-heading : #4692ea;
+  --matching-heading : #4693eab2;
     --primary-heading-translucent : #885cee2a;
   
   
@@ -53,7 +53,7 @@
 .color-green {
   --primary-heading: #25ca85;
   --secondary-heading: #18b172;
-  --matching-heading : #068490;
+  --matching-heading : #068590b7;
     --primary-heading-translucent : #25ca852a;
 }
 .color-yellow {
