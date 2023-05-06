@@ -20,6 +20,7 @@ const Education = (props) => {
            name={"Bachelor of Technology - Computer Science"}
            marks={8.3}
            date={"2018 - 2022 "}
+           delay={0.3}
          />
          <EducationItem
            image={KvsImage}
@@ -28,6 +29,7 @@ const Education = (props) => {
            name={"Computer Science"}
            marks={76}
            date={"2006 - 2018 "}
+           delay={1}
          />
        </div>
      </div>
