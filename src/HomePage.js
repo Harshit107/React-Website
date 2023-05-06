@@ -6,7 +6,7 @@ import ThemeChanger from './component/ThemeManager/ThemeChanger';
 
 const HomePage = () => {
 
-  const [loadingComponent, setLoadingComponent] = useState(0); 
+  const [loadingComponent, setLoadingComponent] = useState(1); 
   const handleNewComponentChangeReq = function(index) {
     setLoadingComponent(index)
   };

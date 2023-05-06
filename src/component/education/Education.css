@@ -1,0 +1,23 @@
+.education__main{
+  padding: 0px 40px;
+  height: 100%;
+  overflow: auto;
+  scrollbar-width: 0px;
+
+}
+
+.education__container{
+  max-width: 80%;
+  height: 70%;
+  padding: 10px  0px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.education__remove_padding_bottom{
+  padding-bottom: 15px !important;
+}
+.education__remove_padding_top{
+  padding-top: 0px !important;
+}
