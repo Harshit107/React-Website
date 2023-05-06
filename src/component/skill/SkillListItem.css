@@ -10,10 +10,6 @@
   box-shadow: 5px -0.5px var(--primary-heading-translucent);
   margin: 10px;
 }
-.skill-list-item__container:hover {
-   transform: scale(1.5);
-   transition: all 1 ease-in-out;
-}
 
 .skill-list-item_img {
    margin-bottom: 10px;   
