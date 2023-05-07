@@ -1,0 +1,47 @@
+.project-item__container {
+    max-width: 270px;
+    height: fit-content;
+    min-height: 100px;
+    background-color: var(--matching-bg-color-1);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.project-item__image {
+  width: 250px;
+  height: fit-content;
+  margin: 5px;
+  border: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.project-item__description{
+  font-size: 14px;
+  text-align: center;
+  color: var(--secondary-text);
+}
+
+
+.project-item__access {
+  margin-bottom: 15px;
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+/* ----------------------- */
+.project-item__button_conf {
+  padding: 7px 20px;
+  margin-right: 7px
+
+}
+
+.fa-globe {
+  padding-right: 5px;
+}

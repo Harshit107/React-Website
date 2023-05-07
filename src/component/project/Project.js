@@ -1,9 +1,20 @@
+import './Project.css' 
+import Header from './../Header/Header';
+import ProjectItemContainer from './PorjectItemContainer';
 
 
-const Project = () => { 
+
+const Project = (props) => { 
+   const projectMainClassName = `project__main ${props.className}` 
+
    return (
-     <div>
-        <h1>Project</h1>
+     <div className={projectMainClassName}>
+       <div className={'project__container'}>
+         <Header heading="My Projects" />
+         <div className='project__item_container' >
+            <ProjectItemContainer />
+         </div>
+       </div>
      </div>
    )
 }
