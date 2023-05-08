@@ -1,6 +1,14 @@
-.projectItemcontainer__container {
+
+.project-item-container__container {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.flex_justify_content_evenly {
   justify-content: space-evenly;
+}
+.margin_right_50{
+  margin-right: 50px;
 }

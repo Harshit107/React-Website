@@ -1,6 +1,6 @@
 import './Project.css' 
 import Header from './../Header/Header';
-import ProjectItemContainer from './PorjectItemContainer';
+import ProjectItemContainer from './ProjectItemContainer';
 
 
 
