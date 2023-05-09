@@ -1,0 +1,23 @@
+
+.project-tech-used-design__container{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.project-tech-used-design__item {
+  width: 30%;
+  margin-right: 5px;
+  background: url('../../Image/tech-use-bg-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15px;
+  font-size: 12px;
+  padding: auto;
+  text-align: center;
+  margin-top: 5px;
+  color: white !important;
+}
