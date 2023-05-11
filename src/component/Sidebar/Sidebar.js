@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ListItem from "./ListItem";
 import "./Sidebar.css";
-import Logo from '../../Image/harshit-logo-circle.png'
+import Logo from '../../Image/harshitLogo.png'
 
 const Sidebar = (props) => {
 
