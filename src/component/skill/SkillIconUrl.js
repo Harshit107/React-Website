@@ -21,6 +21,10 @@ export const languageItems = [
     img: "https://camo.githubusercontent.com/345d7ef1913e167127cb2360a013c29a9f8472c9590a5ec6c186bd04f2426a50/68747470733a2f2f63646e2d69636f6e732d706e672e666c617469636f6e2e636f6d2f3132382f333039372f333039373030382e706e67",
     name: "C",
   },
+  {
+    img: "https://firebasestorage.googleapis.com/v0/b/uem-jaipur-10101.appspot.com/o/OtherAccessImage%2Fsmallalklogo.png?alt=media&token=01daa001-a2d0-4ece-bcf2-a37124440f1d",
+    name : "Small-Talk"
+  },
 ];
 
 export const frameworkItems = [
@@ -81,7 +85,7 @@ export const toolsItem = [
     name: "Jira",
   },
   {
-    img: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+    img: "https://firebasestorage.googleapis.com/v0/b/uem-jaipur-10101.appspot.com/o/OtherAccessImage%2Fpostman%20(1).png?alt=media&token=db11044f-dc91-4ab8-bff2-96483124a25a",
     name: "Postman",
   },
   {

@@ -36,7 +36,7 @@ const App = (props) => {
 
   const transitions = useTransition(
     activeComponent,
-    Animation[activeComponentIndex % 6]
+    Animation[activeComponentIndex % 5]
   );
 
   return (

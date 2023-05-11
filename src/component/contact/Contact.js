@@ -9,7 +9,6 @@ const Contact = () => {
     const [showPopupModal, setShowPopupModal] = useState(false);
 
     const handlePopupModalToggle = () => {
-      console.log("H");
       setShowPopupModal(!showPopupModal);
     };
 
