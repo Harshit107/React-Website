@@ -21,3 +21,18 @@
   height: 200px; /* For demo purposes */
   
  }
+
+
+
+ .mobile-version {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1d1d;
+  color: antiquewhite;
+ }

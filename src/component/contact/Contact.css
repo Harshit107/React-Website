@@ -8,11 +8,12 @@
 }
 .contact__container_connection_message{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .contact_logo_container{
   width: 100%;
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
 
@@ -22,7 +23,7 @@
   display: flex;
   width: 35%;
   flex-direction: column;
-  margin-top: 70px;
+  margin-top: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -30,6 +31,7 @@
   border-radius: 20px;
   border-top-right-radius: 70px;
   box-shadow: 50px -20px var(--matching-heading);
+  margin-bottom: 20px;
 }
 .contact__detail_row {
   display: flex;
