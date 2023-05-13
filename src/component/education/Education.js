@@ -1,6 +1,6 @@
 import './Education.css' 
 import EducationItem from './EducationItem';
-import UemImage from '../../Image/ume.jpg';
+import UemImage from '../../Image/uemJaipur.png';
 import KvsImage from '../../Image/kvs.jpg';
 import Header from './../Header/Header';
 

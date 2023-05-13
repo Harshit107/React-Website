@@ -1,0 +1,133 @@
+.experience-item__main {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+    display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.experience-item__container {
+  width : 85%;
+  height : 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+
+
+/* -----------   :left -------------------- */
+
+.experience-item__left {
+  width: 100%;
+  height: 100%;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align: left;
+  padding: 0px 20px;
+  visibility:hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.experience-item__job_title {
+  font-size: 30px;
+  color: var(--primary-heading);
+    font-weight: 800;
+
+  margin-top: 5px;
+}
+
+.experience-item__company_name {
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--secondary-text);
+  margin-top: 5px;
+}
+.experience-item__company_work {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--secondary-text);
+  opacity: 0.8;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.experience-item__job_month {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--secondary-text);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+/* -------------   Middle  -------------------------------- */
+.experience-item__middle {
+  width: 5px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.experience-item__company_top{
+  width: 3px;
+  height: 50%;
+  background-color: var(--primary-heading)
+}
+.experience-item__company_logo{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+.company_logo_left{
+  border-left: 3px solid var(--primary-heading);
+
+}
+.company_logo_right{
+  border-right: 3px solid var(--primary-heading);
+
+}
+.experience-item__company_logo>img{
+  width: 50px;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+}
+.experience-item__company_bottom{
+  width: 3px;
+  height: 50%;
+  background-color: var(--primary-heading)
+  
+}
+
+/* -------------     Right   ------------- */
+
+.experience-item__right {
+  width: 100%;
+  height: 100%;
+  margin-left: 40px;
+  border-radius: 20px;
+  visibility:hidden;
+  padding: 0px 40px;
+  visibility:hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.experience-item__direction {
+  visibility: visible !important;
+}
+
+
