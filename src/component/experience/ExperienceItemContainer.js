@@ -17,6 +17,7 @@ const Experience = (props) => {
               <ExperienceItem
                 {...data}
                 direction = {index % 2 === 0 ? 'left' : 'right'}
+                delay = {0.5 + index/2 }
               />
             );
           })
