@@ -36,7 +36,7 @@ const Sidebar = (props) => {
         />
         <ListItem
           id="2"
-          section="Exprience"
+          section="Experience"
           icon="briefcase"
           isActive={activeList === "2"}
           changeListColor={changeListColor}

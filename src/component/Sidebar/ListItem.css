@@ -9,7 +9,7 @@
 
 .listitem__container_a {
   font-size: 18px;
-  max-width: 120px;
+  max-width: 140px;
   border-bottom: .5px solid var(--border-color);
   cursor: pointer;
   display: block; 
