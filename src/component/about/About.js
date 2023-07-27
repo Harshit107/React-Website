@@ -36,7 +36,7 @@ const About = (props) => {
             I'm dedicated to staying up-to-date with the latest technologies and
             trends, and I believe that learning is a lifelong process.
           </p>
-          <Button>View Resume</Button>
+          <Button clickValue={"https://firebasestorage.googleapis.com/v0/b/harshit107-file-ecosystem.appspot.com/o/Resume%2Fharshit107_cv.pdf?alt=media&token=2b532c5c-e073-494a-a680-89d13ef66195"}>View Resume</Button>
         </div>
       </div>
       <div className="about__container_image">

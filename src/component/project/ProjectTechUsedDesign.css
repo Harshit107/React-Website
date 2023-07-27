@@ -1,11 +1,10 @@
 
 .project-tech-used-design__container{
+  box-sizing: border-box;
   width: 100%;
-  height: fit-content;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 .project-tech-used-design__item {
@@ -20,4 +19,5 @@
   text-align: center;
   margin-top: 5px;
   color: white !important;
+  
 }
