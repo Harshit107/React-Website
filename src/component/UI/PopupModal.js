@@ -1,7 +1,6 @@
+import { motion } from "framer-motion";
+import Button from "./Button";
 import "./PopupModal.css";
-import Button from './Button';
-import { motion} from "framer-motion/dist/framer-motion"; 
-
 
 function PopupModal(props) {
   return (

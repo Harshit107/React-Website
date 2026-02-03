@@ -1,15 +1,21 @@
-
-import hexagonLogo from '../../Image/hexagonLogo.png'
-import mtxLogo from '../../Image/mtxLogo.png'
-import tekneyaLogo from '../../Image/teknesyaLogo.png'
-
+import cornerStone from "../../Image/cornerstone-modified.png";
+import hexagonLogo from "../../Image/hexagonLogo.png";
+import mtxLogo from "../../Image/mtxLogo.png";
+import tekneyaLogo from "../../Image/teknesyaLogo.png";
 
 const experienceData = [
   {
+    name: "Cornerstone OnDemand",
+    jobTitle: "Software Developer",
+    work: `Founding team member and module owner for a core product area at Cornerstone OnDemand. Currently responsible for end-to-end design, development, and maintenance of the module using React, TypeScript, Node.js, and GraphQL. Drive architectural decisions, performance optimization, accessibility compliance, and API integrations while collaborating cross-functionally to scale features in production..`,
+    year: "May 2024  -  Present ,  2 Years",
+    logo: cornerStone,
+  },
+  {
     name: "Hexagon Manufacturing Intelligence",
     jobTitle: "Junior Software Developer",
-    work: `Working on the development of a module that enables bi-directional conversion of 3D models between REXS and JSON formats.`,
-    year: "Nov 2022  -  present ,  6 Months",
+    work: `Worked on the development of a module that enables bi-directional conversion of 3D models between REXS and JSON formats.`,
+    year: "Nov 2022  -  May 2024 ,  1.5 Years",
     skill: " Javascript  C#  Smalltalk",
     logo: hexagonLogo,
   },

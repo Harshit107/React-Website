@@ -1,7 +1,7 @@
-import "./About.css";
-import TextWritter from "../UI/TextWritter";
 import AboutImage from "../../Image/about-img-transparent.png";
 import Button from "../UI/Button";
+import TextWritter from "../UI/TextWritter";
+import "./About.css";
 
 const About = (props) => {
   return (
@@ -21,22 +21,33 @@ const About = (props) => {
         <div className="about__text_container_bio">
           <p>
             <i>Greetings, </i>
-            <br />I am Harshit Keshari, currently working as a Jr Software
+            <br />I am Harshit Keshari, currently working as a Software
             Developer at{" "}
-            <a href="https://www.hexagon.com/" target="blank">
-              <span className="link-color">Hexagon(HMI) </span>
+            <a href="https://www.cornerstoneondemand.com/" target="blank">
+              <span className="link-color">Cornerstone OnDemand </span>
             </a>
             and I have a Bachelor's degree in Computer Science from the
             University Of Engineering and Management Jaipur.
             <br />
-            I'm a self-taught developer with a passion for building innovative
-            apps and websites. As a
-            full-stack developer, I enjoy working on every aspect of a project,
-            from front-end design to back-end functionality.
-            I'm dedicated to staying up-to-date with the latest technologies and
-            trends, and I believe that learning is a lifelong process.
+            I'm a Full-Stack Developer with 3+ years of experience building
+            scalable, high-performance web applications using React, TypeScript,
+            Node.js, Express, and GraphQL. Strong focus on frontend performance
+            optimization, accessibility (WCAG/Section 508), and clean UI
+            architecture. Experienced in designing API-driven systems,
+            integrating REST and GraphQL services, and working with PostgreSQL,
+            MongoDB, and Firebase. Proven track record of improving UI
+            responsiveness, data throughput, and developer productivity through
+            reusable components, internal tooling, and structured logging.
+            Comfortable working across the full SDLC in fast-paced product
+            teams.
           </p>
-          <Button clickValue={"https://firebasestorage.googleapis.com/v0/b/harshit107-file-ecosystem.appspot.com/o/Resume%2Fharshit107_cv.pdf?alt=media&token=2b532c5c-e073-494a-a680-89d13ef66195"}>View Resume</Button>
+          <Button
+            clickValue={
+              "https://drive.google.com/file/d/1Cs2Ak0mgI7Ae5zXXlBuTkcqSzY2XB6mi/view"
+            }
+          >
+            View Resume
+          </Button>
         </div>
       </div>
       <div className="about__container_image">

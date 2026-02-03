@@ -1,5 +1,5 @@
+import { motion } from "framer-motion";
 import "./ExperienceItem.css";
-import { motion } from "framer-motion/dist/framer-motion";
 
 const ExperienceItem = (props) => {
   const experienceItemMainClassName = `experience-item__main ${props.className}`;

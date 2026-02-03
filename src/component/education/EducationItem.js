@@ -1,5 +1,5 @@
+import { motion } from "framer-motion";
 import "./EducationItem.css";
-import {motion} from 'framer-motion/dist/framer-motion'
 
 const EducationItem = (props) => {
   const educationItemMainClassName = `educationItem__main ${
