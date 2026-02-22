@@ -1,13 +1,27 @@
 .project__main {
   height: 100%;
   overflow: auto;
-  
+
 }
 
 
-.project__container{
+.project__container {
   padding: 40px;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .project__main {
+    height: auto;
+    overflow: visible;
+  }
+
+  .project__container {
+    padding: 10px;
+    /* Reduced padding */
+    height: auto;
+    overflow-y: visible;
+  }
 }

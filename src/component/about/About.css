@@ -1,12 +1,12 @@
-
-.about__container{
+.about__container {
   background-color: var(--primary-bg-color);
   width: 100%;
   height: 100%;
   display: flex;
 
 }
-.about__container_text{
+
+.about__container_text {
   width: 60%;
   height: 100%;
   padding-right: 30px;
@@ -20,27 +20,33 @@
 
 
 .about__text_container_heading {
-  width: 100%;;
+  width: 100%;
+  ;
   text-align: left;
   font-size: 25px;
   font-weight: 500;
 
 }
+
 .about__text_container_typer {
-  width: 100%;;
+  width: 100%;
+  ;
   text-align: left;
   min-height: 40px;
   font-size: 28px;
   margin-top: 20px;
 }
+
 .about__text_container_bio {
   width: 100%;
 }
+
 .about__text_container_bio {
   font-weight: 500;
   line-height: 1.4;
   color: var(--low-white);
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 .about__text_container_bio a {
@@ -52,7 +58,7 @@
 
 /* ---------   Image code  ------------ */
 
-.about__container_image{
+.about__container_image {
   width: 40%;
   height: 100%;
   display: flex;
@@ -82,7 +88,7 @@
   object-fit: cover;
   position: relative;
   /* clip-path: polygon(0 0, 0 40px, 40px 0, 80px 0, 80px 40px, 40px 80px, 0 80px); */
-    margin-top: -50px;
+  margin-top: -50px;
 }
 
 .about__image_container_bottom-right {
@@ -92,4 +98,56 @@
   border-right: 8px solid var(--primary-heading);
   border-bottom: 8px solid var(--primary-heading);
   margin-top: -50px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__container {
+    flex-direction: column;
+    height: auto;
+    /* Allow it to grow */
+    overflow-y: visible;
+    /* Let App container handle scroll */
+    padding-bottom: 20px;
+    display: flex;
+  }
+
+  .about__container_text {
+    width: 100%;
+    height: auto;
+    /* Don't force height */
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+  }
+
+  .about__container_image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    /* Separator */
+  }
+
+  .about__image_container {
+    width: 60%;
+    /* Smaller image on mobile */
+    max-width: 300px;
+  }
+
+  .about__text_container_heading {
+    font-size: 20px;
+  }
+
+  .about__text_container_typer {
+    font-size: 22px;
+    min-height: 60px;
+    /* ensure typing text doesn't jump too much */
+    margin-bottom: 10px;
+  }
+
+  .about__text_container_bio {
+    font-size: 16px;
+    /* readable */
+  }
 }

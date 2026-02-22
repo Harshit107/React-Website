@@ -1,10 +1,8 @@
-
 .listitem__container {
   width: 100%;
   padding-left: 80px;
   padding-top: 40px;
   text-align: left;
-
 }
 
 .listitem__container_a {
@@ -12,15 +10,14 @@
   max-width: 140px;
   border-bottom: .5px solid var(--border-color);
   cursor: pointer;
-  display: block; 
+  display: block;
   font-weight: 600;
   color: var(--primary-text);
   transition: color 0.3s ease-in-out;
   transform: 0.2s ease-in-out;
   padding-bottom: 5px;
-
-
 }
+
 .listitem__container_a_active {
   color: var(--primary-heading);
   transform: scale(1.15);
@@ -28,6 +25,46 @@
 
 .listitem_i {
   padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .listitem__container {
+    width: auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .listitem__container_a {
+    font-size: 12px;
+    /* Smaller font on mobile */
+    max-width: none;
+    border-bottom: none;
+    /* Remove underline on mobile */
+    display: flex;
+    flex-direction: column;
+    /* Stack icon and text */
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+  }
+
+  .listitem_i {
+    padding-right: 0;
+    padding-bottom: 2px;
+    font-size: 18px;
+    /* Larger icon */
+  }
+
+  .listitem__container_a_active {
+    transform: none;
+    /* simple color change is enough */
+    color: var(--primary-heading);
+    /* ensure active color sticks */
+  }
 }
 
 

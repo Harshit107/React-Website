@@ -1,4 +1,4 @@
-.education__main{
+.education__main {
   padding: 0px 40px;
   height: 100%;
   overflow: auto;
@@ -6,18 +6,38 @@
 
 }
 
-.education__container{
+.education__container {
   max-width: 80%;
   height: 70%;
-  padding: 10px  0px;
+  padding: 10px 0px;
   display: flex;
   flex-direction: column;
 
 }
 
-.education__remove_padding_bottom{
+.education__remove_padding_bottom {
   padding-bottom: 15px !important;
 }
-.education__remove_padding_top{
+
+.education__remove_padding_top {
   padding-top: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .education__main {
+    padding: 0 10px;
+    /* Reduced padding */
+    height: auto;
+    /* Allow growth */
+    overflow: visible;
+    /* No internal scroll */
+  }
+
+  .education__container {
+    max-width: 100%;
+    /* Full width */
+    height: auto;
+    overflow-y: visible;
+    padding-bottom: 20px;
+  }
 }

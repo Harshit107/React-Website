@@ -13,6 +13,18 @@
   -ms-overflow-style: none;
 }
 
+@media screen and (max-width: 768px) {
+  .skill__container {
+    padding: 0 10px;
+    /* Reduced padding */
+    height: auto;
+    overflow-y: visible;
+    padding-bottom: 20px;
+    display: block;
+    /* Ensure it's not flex if that causes issues, though it defaults to block usually */
+  }
+}
+
 /* Chrome, Safari, Edge (WebKit) */
 .skill__container::-webkit-scrollbar {
   display: none;
