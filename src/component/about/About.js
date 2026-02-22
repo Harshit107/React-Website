@@ -7,12 +7,12 @@ const About = (props) => {
   return (
     <div className="about__container">
       <div className="about__container_text">
-        <div className="about__text_container_heading">
+        <h1 className="about__text_container_heading">
           <b>
             Hello, My name is{" "}
             <span className="special__text">Harshit Keshari</span>
           </b>
-        </div>
+        </h1>
         <div className="about__text_container_typer">
           <b>
             <TextWritter />
@@ -53,7 +53,7 @@ const About = (props) => {
       <div className="about__container_image">
         <div className="about__image_container">
           <div className="about__image_container_top-left"></div>
-          <img src={AboutImage} alt="" className="about__image_container_img" />
+          <img src={AboutImage} alt="Harshit Keshari (Harshit107) Software Developer Profile Picture" className="about__image_container_img" />
           <div className="about__image_container_bottom-right"></div>
         </div>
       </div>
