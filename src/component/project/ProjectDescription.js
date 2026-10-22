@@ -1,8 +1,9 @@
-import digitalClassroomImg from "../../Image/digitalClassroom-image.jpg";
 import appStoreImg from "../../Image/appStore.png";
+import digitalClassroomImg from "../../Image/digitalClassroom-image.jpg";
 import expensifyImg from "../../Image/expensify-img.png";
 import freelyEmailImg from "../../Image/freely-email.png";
-import uemConnectImg from "../../Image/uem-connect.PNG";
+import uemConnectImg from "../../Image/uem-connect-new.png";
+import DOMAINS from "../../config/domain";
 
 const ProjectDescription = [
   {
@@ -10,7 +11,7 @@ const ProjectDescription = [
     description:
       "A fullstack app that allows for seamless classroom management,customized attendance system, live video meetings with 100% automatic mailing system.",
     codeLink: "https://github.com/Harshit107/DigitalClassroom",
-    liveLink: "https://Harshit107.tech",
+    liveLink: DOMAINS.PORTFOLIO.UI,
     image: digitalClassroomImg,
     tech: ["Android", "NodeJs", "ExpressJs", "MongoDB", "Firebase", "AWS"],
   },
@@ -37,7 +38,7 @@ const ProjectDescription = [
     description:
       "API and Library that allows automating email sending, with domain configured, ensuring smooth email delivery and management",
     codeLink: "https://github.com/Harshit107/FreelyEmail-API",
-    liveLink: "https://www.npmjs.com/package/freely-email?activeTab=readme",
+    liveLink: DOMAINS.EMAIL.SHOWCASE_UI,
     image: freelyEmailImg,
     tech: ["NodeJS", "Express", "Mongoose"],
   },
@@ -55,7 +56,7 @@ const ProjectDescription = [
     description:
       "A fullstack Application similar to Google Login with much more advance features.",
     codeLink: "https://github.com/Harshit107/oneLogin",
-    liveLink: "https://github.com/Harshit107/oneLogin",
+    liveLink: DOMAINS.ONE_LOGIN.UI,
     image: expensifyImg,
     tech: ["React", "Javascript", "Firebase"],
   }

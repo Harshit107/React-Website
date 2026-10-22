@@ -1,8 +1,10 @@
+"use client";
 import Header from "../Header/Header";
 import IconBox from "../UI/IconBox";
 import "./Contact.css";
 import React, { useState } from "react";
 import PopupModal from "../UI/PopupModal";
+import DOMAINS from "../../config/domain";
 
 const Contact = () => {
 
@@ -18,7 +20,7 @@ const Contact = () => {
         <PopupModal
           title="Contact via Email"
           content="Gmail : Harshit107.in@gmail.com "
-          contentMore="Site : Contact@harshit107.in"
+          contentMore={`Site : ${DOMAINS.PORTFOLIO.EMAIL}`}
           closePopupModal={handlePopupModalToggle}
         />
       )}
@@ -77,3 +79,4 @@ const Contact = () => {
   );
 };
 export default Contact;
+

@@ -1,3 +1,4 @@
+﻿"use client";
 import { motion } from "framer-motion";
 import "./ItemContainer.css";
 import SkillListItem from "./SkillListItem";
@@ -28,3 +29,4 @@ const ItemContainer = (props) => {
   );
 };
 export default ItemContainer;
+

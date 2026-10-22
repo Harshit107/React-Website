@@ -1,69 +1,59 @@
-import { useState } from "react";
+"use client";
+
+import Image from "next/image";
+import { usePathname } from "next/navigation";
+import Logo from '../../Image/harshitLogo.png';
 import ListItem from "./ListItem";
 import "./Sidebar.css";
-import Logo from '../../Image/harshitLogo.png'
 
 const Sidebar = (props) => {
-
-  let className = `${props.className} sidebar__container `;
-
-  const [activeList, setActiveList] = useState('0');
-
-  const changeListColor = (id) => {    
-    setActiveList(id);
-    props.loadNewComponent(id);
-  }
+  let className = `${props.className || ''} sidebar__container `;
+  const pathname = usePathname();
 
   return (
     <div className={className}>
       <div className="sidebar__logo_container">
-        <img src={Logo} alt="logo" className="sidebar__logo"></img>
+        <Image src={Logo} alt="logo" className="sidebar__logo" />
       </div>
       <div className="slidebar__ul">
         <ListItem
-          id="0"
+          href="/"
           section="About"
           icon="user"
-          isActive={activeList === "0"}
-          changeListColor={changeListColor}
+          isActive={pathname === "/"}
         />
         <ListItem
-          id="1"
+          href="/education"
           section="Education"
           icon="book"
-          isActive={activeList === "1"}
-          changeListColor={changeListColor}
+          isActive={pathname === "/education"}
         />
         <ListItem
-          id="2"
+          href="/experience"
           section="Experience"
           icon="briefcase"
-          isActive={activeList === "2"}
-          changeListColor={changeListColor}
+          isActive={pathname === "/experience"}
         />
 
         <ListItem
-          id="3"
+          href="/project"
           section="Project"
           icon="desktop"
-          isActive={activeList === "3"}
-          changeListColor={changeListColor}
+          isActive={pathname === "/project"}
         />
 
         <ListItem
-          id="4"
+          href="/skill"
           section="Skills"
           icon="code"
-          isActive={activeList === "4"}
-          changeListColor={changeListColor}
+          isActive={pathname === "/skill"}
         />
 
         <ListItem
-          id="5"
+          href="/contact"
           section="Contact"
           icon="comments"
-          isActive={activeList === "5"}
-          changeListColor={changeListColor}
+          isActive={pathname === "/contact"}
         />
       </div>
     </div>

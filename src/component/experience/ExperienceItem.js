@@ -1,3 +1,4 @@
+﻿"use client";
 import { motion } from "framer-motion";
 import "./ExperienceItem.css";
 
@@ -57,3 +58,4 @@ const ExperienceItem = (props) => {
   );
 };
 export default ExperienceItem;
+

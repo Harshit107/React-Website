@@ -1,4 +1,6 @@
-import './Button.css' 
+"use client";
+
+import './Button.css';
 
 
 const Button = (props) => { 

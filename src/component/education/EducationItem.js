@@ -1,3 +1,4 @@
+﻿"use client";
 import { motion } from "framer-motion";
 import "./EducationItem.css";
 
@@ -59,3 +60,4 @@ const EducationItem = (props) => {
   );
 };
 export default EducationItem;
+

@@ -1,3 +1,4 @@
+﻿"use client";
 import { motion } from "framer-motion";
 import Button from "./../UI/Button";
 import "./ProjectItem.css";
@@ -58,3 +59,4 @@ const ProjectItem = (props) => {
   );
 };
 export default ProjectItem;
+

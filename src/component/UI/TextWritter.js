@@ -1,3 +1,4 @@
+﻿"use client";
 import { ReactTyped } from "react-typed";
 import "./TextWritter.css";
 
@@ -18,3 +19,4 @@ const TextWritter = () => {
   );
 };
 export default TextWritter;
+

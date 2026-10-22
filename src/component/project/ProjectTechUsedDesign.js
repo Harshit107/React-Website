@@ -1,3 +1,4 @@
+﻿"use client";
 import { motion } from "framer-motion";
 import "./ProjectTechUsedDesign.css";
 
@@ -26,3 +27,4 @@ const ProjectTechUsedDesign = (props) => {
   );
 };
 export default ProjectTechUsedDesign;
+

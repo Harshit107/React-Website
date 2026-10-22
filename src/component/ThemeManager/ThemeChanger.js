@@ -1,8 +1,11 @@
-import "./ThemeChanger.css";
-import ThemeColorBox from "./ThemeColorBox";
+"use client";
+
+import Image from "next/image";
 import { useState } from "react";
 import darkLogo from "../../Image/dark.svg";
 import lightLogo from "../../Image/light.svg";
+import "./ThemeChanger.css";
+import ThemeColorBox from "./ThemeColorBox";
 
 const ThemeChanger = (props) => {
   let className = `themechanger__container ${props.className}`;
@@ -36,12 +39,12 @@ const ThemeChanger = (props) => {
             onClick={toggleDiv}
           ></i>
           <div>
-            <img
+            <Image
               className="themechanger__setting_img"
               src={mode === "dark" ? lightLogo : darkLogo}
               alt="Light Mode"
               onClick={handleChangeMode}
-            ></img>
+            />
           </div>
         </div>
         <ThemeColorBox className="" />

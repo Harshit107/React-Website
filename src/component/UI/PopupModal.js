@@ -1,3 +1,4 @@
+﻿"use client";
 import { motion } from "framer-motion";
 import Button from "./Button";
 import "./PopupModal.css";
@@ -21,3 +22,4 @@ function PopupModal(props) {
 }
 
 export default PopupModal;
+
